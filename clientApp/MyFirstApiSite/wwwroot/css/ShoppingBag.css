@@ -1,0 +1,109 @@
+﻿
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2a452c;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    color: #2a452c;
+}
+
+.cart {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: black;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+.nxbtn, .shopmore {
+    background-color: #2a452c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+    .nxbtn:hover, .shopmore:hover {
+        background-color: black;
+        color: white;
+    }
+
+.cistGroup {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    table.items th, table.items td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #bdad93f5; /* Adds bottom border to each cell */
+        border-left: 1px solid white; /* Adds left border with white color to each cell */
+    }
+
+    table.items th {
+        background-color: #bdad93f5;
+        color: white;
+        border-left: 1px solid white; /* Adds left border with white color to header cells */
+    }
+
+        table.items th:first-child, table.items td:first-child {
+            border-left: none; /* Remove left border for the first column cells */
+        }
+
+    table.items td {
+        background-color: white;
+    }
+
+        table.items td a {
+            color: #2a452c;
+            text-decoration: none;
+        }
+
+            table.items td a:hover {
+                color: #bdad93f5;
+            }
+
+        table.items td .deleteButton {
+            color: red;
+        }
+
+.ClearBoth {
+    clear: both;
+}
+
+.imageColumn {
+    width: 120px; /* Adjusted to be slightly larger than the image */
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
